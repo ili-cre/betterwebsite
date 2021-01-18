@@ -137,7 +137,7 @@ nav {
 
 .contact ul li {
     display: inline;
-    
+    flex-direction: row;
 }
 
 .arrow
