@@ -33,7 +33,6 @@ body {
   background-color: rgb(105, 165, 221);
   margin-left: 60px;
   margin-right: 100px;
-  position: relative;
   padding-top: 30px;
 }
 
@@ -113,7 +112,7 @@ nav {
   font-size: 18px;
   border: 1px solid #94d8ec;
   color: #ffffff;
-  background-color: rgb(206, 125, 192);
+  background-color: rgb(6, 110, 105);
   margin-left: 280px;
 }
 .contact {
@@ -158,15 +157,7 @@ nav {
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
   .topMessage {
-    font-size: 15px;
     width: 100%;
-    margin-right: 0px;
-    margin-left: 10px;
-  }
-  .main-nav li a {
-    display: none;
-  }
-  .topMessage {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
     font-size: 26px;
@@ -174,7 +165,12 @@ nav {
     margin-bottom: 0%;
     margin-left: 30px;
     margin-right: 0px;
+  
   }
+  .main-nav li a {
+    display: none;
+  }
+
 
   .illustration {
     height: 100%;
@@ -188,7 +184,8 @@ nav {
   .container h2 {
     font-size: 20px;
     text-align: justify;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .projects {
     display: none;
