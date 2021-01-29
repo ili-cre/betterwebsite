@@ -157,13 +157,14 @@ nav {
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
   .topMessage {
-    width: 80%;
+    width: 75%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
     font-size: 24px;
     margin-top: 50px;
     margin-bottom: 0%;
     margin-left: 30px;
+    margin-right: 30px;
     flex-direction: column;
   
   }
