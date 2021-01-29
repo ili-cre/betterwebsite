@@ -157,7 +157,7 @@ nav {
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
   .topMessage {
-    width: 75%;
+    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
     font-size: 19px;
@@ -190,6 +190,9 @@ nav {
   }
   .projects {
     display: none;
+  }
+  .arrow{
+      display: none;
   }
 }
 }
