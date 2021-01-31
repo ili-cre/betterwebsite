@@ -15,13 +15,12 @@ body {
   margin-bottom: 0%;
   margin-left: 60px;
   margin-right: 400px;
-
   color: honeydew;
 }
 
 .container {
   width: 100%;
-  height: 300px;
+  height: 220px;
   background: rgb(105, 165, 221);
 }
 
@@ -154,6 +153,20 @@ nav {
   text-decoration: none;
   color: white;
 }
+footer{
+    margin: auto;
+    width: 30%;
+}
+.linkedin img
+{
+    max-width: 50px;
+    height: auto;
+}
+.insta img {
+    max-width: 400px;
+    height: auto;
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
   .topMessage {
@@ -179,7 +192,7 @@ nav {
   }
   .container {
     width: 100%;
-    height: 410px;
+    height: 350px;
     display: block;
   }
   .container h2 {
@@ -190,7 +203,12 @@ nav {
   }
   .projects {
     display: none;
+
   }
+  .getInTouch {
+      margin-left: 20px;
+  }
+ 
   .arrow{
       display: none;
   }
