@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #447ee9;
+  background-color: #3473e9;
 }
 
 body {
@@ -103,11 +103,11 @@ nav {
   text-decoration: none;
 }
 .main-nav li a:hover {
-  background-color: #ddd;
+  background-color: rgb(253, 253, 253);
   color: darkblue;
 }
 .main-nav li a.active {
-  background-color: darkolivegreen;
+  background-color: rgb(78, 71, 185);
   color: white;
 }
 .main-nav .icon {
