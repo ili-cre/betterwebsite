@@ -106,6 +106,7 @@ body {
 }
 .projects img {
     background-color: rgb(50, 43, 139);
+    object-fit: contain;
 
 }
 .row {
