@@ -46,7 +46,9 @@ body {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  margin: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
 
 .w3-third {
@@ -59,6 +61,7 @@ body {
 }
 .w3-third w3-card {
   max-width: 70px;
+  
 }
 
 .w3-third w3-card-2 {
@@ -154,7 +157,7 @@ nav {
 }
 .getInTouch {
   padding: 0px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   margin-left: 60px;
